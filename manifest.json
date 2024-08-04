@@ -1,16 +1,29 @@
 {
-    "manifest_version": 3,
-    "name": "TeraBox Video Extension",
-    "version": "1.0",
-    "description": "A Chrome extension to download or watch TeraBox videos.",
-    "permissions": [
-      "activeTab"
-    ],
-    "action": {
-      "default_popup": "popup.html"
-    },
-    "background": {
-      "service_worker": "background.js"
+  "manifest_version": 3,
+  "name": "TeraBox Player",
+  "version": "1.0",
+  "description": "A Chrome extension to download or watch TeraBox videos.",
+  "permissions": [
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "512": "logo.png"
     }
-  }
-  
+  },
+  "icons": {
+    "512": "logo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://teraboxapp.com/s/*",
+        "https://www.1024tera.com/sharing/link?surl=*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}

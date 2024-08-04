@@ -25,9 +25,8 @@ The **TeraBox Player Chrome Extension** enhances your TeraBox experience by addi
 Follow these steps to install the TeraBox Player Chrome Extension:
 
 1. **Download the Extension:**
+   - [Main Branch (Latest)](https://github.com/SH20RAJ/terabox-player-chrome-extension/archive/refs/heads/main.zip)
    - [Version 1.0](https://github.com/SH20RAJ/terabox-player-chrome-extension/archive/refs/tags/v1.zip)
-   - [Main Branch](https://github.com/SH20RAJ/terabox-player-chrome-extension/archive/refs/heads/main.zip)
-   - [ZIP Archive](https://github.com/SH20RAJ/terabox-player-chrome-extension.zip)
 
 2. **Extract the ZIP File:**
    - Extract the downloaded ZIP file to a location on your computer.
