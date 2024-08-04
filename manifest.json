@@ -14,16 +14,5 @@
   },
   "icons": {
     "512": "logo.png"
-  },
-  "content_scripts": [
-    {
-      "matches": [
-        "https://teraboxapp.com/s/*",
-        "https://www.1024tera.com/sharing/link?surl=*"
-      ],
-      "js": [
-        "content.js"
-      ]
-    }
-  ]
+  }
 }
